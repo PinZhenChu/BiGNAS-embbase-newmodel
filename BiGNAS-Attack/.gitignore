@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode/IDE settings (可視情況加入)
+.vscode/
+.idea/
+
+# 虛擬環境
+.venv/
+env/
+
+# 模型訓練輸出目錄
+save/
+wandb/
+*.pt
+*.pth
+
+# 數據資料夾 (如果是原始資料 or 巨大中間檔)
+data/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
