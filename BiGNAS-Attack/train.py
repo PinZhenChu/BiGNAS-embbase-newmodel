@@ -575,7 +575,7 @@ def train(model, perceptor, data, args, split_result, summary=None):
         num_users=args.num_users,
         target_item_offset=target_item_offset,
         pos_ratio=1,
-        neg_ratio=0
+        neg_ratio=2
     )
 
      # 🛡️ 確保在這之後才建立 Dataset 物件，且長度已經是最終平衡後的結果[cite: 3]
